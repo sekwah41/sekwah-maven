@@ -9,7 +9,7 @@ module.exports.folderredirect = (event, context, callback) => {
 
     // Match any uri that ends with some combination of
     // [0-9][a-z][A-Z]_- and append a slash
-    var endslashuri = olduri.replace(/(\/[\w\-]+)$/, '$1something/');
+    var endslashuri = olduri.replace(/(\/[\w\-]+)$/, '$1/');
 
     if(endslashuri != olduri) {
 
