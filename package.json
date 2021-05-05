@@ -1,0 +1,19 @@
+{
+  "name": "sekwah-maven",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Just setting up for some server things... Deploy single function",
+  "main": "maven.js",
+  "dependencies": {},
+  "devDependencies": {
+    "serverless-lambda-edge-pre-existing-cloudfront": "^1.1.5",
+    "serverless": "^2.28.7"
+  },
+  "scripts": {
+    "deploy": "serverless deploy",
+    "deploy:index": "serverless deploy function -f index",
+    "remove": "serverless remove"
+  },
+  "author": "",
+  "license": "ISC"
+}
