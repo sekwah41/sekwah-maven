@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Just setting up for some server things... Deploy single function",
-  "main": "maven.js",
+  "main": "folderRedirect.js",
   "dependencies": {},
   "devDependencies": {
     "serverless-lambda-edge-pre-existing-cloudfront": "^1.1.5",

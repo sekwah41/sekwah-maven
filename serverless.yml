@@ -33,15 +33,35 @@ provider:
 package:
   individually: true
   excludeDevDependencies: true
+  exclude:
+    - "**/*"  # quotes(") are needed
 
 functions:
-  maven:
-    handler: maven.folderredirect
+  mavenFolderRedirect:
+    handler: folderRedirect.folderredirect
+    package:
+      include:
+        - folderRedirect.js
+        #- node_modules/**
     events:
       # Using npm install --save-dev serverless-lambda-edge-pre-existing-cloudfront
       - preExistingCloudFront:
           distributionId: ${env:CLOUDFRONT_DISTRIBUTION_ID} # CloudFront distribution ID you want to associate
           eventType: origin-request # Choose event to trigger your Lambda function, which are `viewer-request`, `origin-request`, `origin-response` or `viewer-response`
+          pathPattern: '*' # Specifying the CloudFront behavior
+          includeBody: false # Whether including body or not within request
+          stage: dev
+  mavenFileDisplay:
+    handler: alterHeaders.fileheaders
+    memorySize: 128
+    timeout: 5
+    package:
+      include:
+        - alterHeaders.js
+    events:
+      - preExistingCloudFront:
+          distributionId: ${env:CLOUDFRONT_DISTRIBUTION_ID} # CloudFront distribution ID you want to associate
+          eventType: viewer-response # Choose event to trigger your Lambda function, which are `viewer-request`, `origin-request`, `origin-response` or `viewer-response`
           pathPattern: '*' # Specifying the CloudFront behavior
           includeBody: false # Whether including body or not within request
           stage: dev
