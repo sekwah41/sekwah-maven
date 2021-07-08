@@ -33,15 +33,22 @@ provider:
 package:
   individually: true
   excludeDevDependencies: true
-  exclude:
-    - "**/*"  # quotes(") are needed
+  patterns:
+    - "!**/*"
 
 functions:
-  mavenFolderRedirect:
-    handler: folderRedirect.folderredirect
+  mavenFolderList:
+    handler: src/folderList.list
+    events:
+      - http: GET /hello
     package:
-      include:
-        - folderRedirect.js
+      patterns:
+        - "src/folderList.js"
+  mavenFolderRedirect:
+    handler: src/folderRedirect.folderredirect
+    package:
+      patterns:
+        - "src/folderRedirect.js"
         #- node_modules/**
     events:
       # Using npm install --save-dev serverless-lambda-edge-pre-existing-cloudfront
@@ -52,12 +59,12 @@ functions:
           includeBody: false # Whether including body or not within request
           stage: dev
   mavenFileDisplay:
-    handler: alterHeaders.fileheaders
+    handler: src/alterHeaders.fileheaders
     memorySize: 128
     timeout: 5
     package:
-      include:
-        - alterHeaders.js
+      patterns:
+        - "src/alterHeaders.js"
     events:
       - preExistingCloudFront:
           distributionId: ${env:CLOUDFRONT_DISTRIBUTION_ID} # CloudFront distribution ID you want to associate
