@@ -1,23 +1,20 @@
 'use strict';
 
+
 module.exports.folderredirect = (event, context, callback) => {
-    // Extract the request from the CloudFront event that is sent to Lambda@Edge
     const request = event.Records[0].cf.request;
 
-    // Extract the URI and params from the request
-    const olduri = request.uri;
+    const oldURI = request.uri;
 
-    // Match any uri that ends with some combination of
-    // [0-9][a-z][A-Z]_- and append a slash
-    var endslashuri = olduri.replace(/(\/[\w\-]+)$/, '$1/');
+    const endslashURI = oldURI.replace(/(\/[\w\-]+)$/, '$1/');
 
-    if(endslashuri != olduri) {
+    if(endslashURI !== oldURI) {
 
         let params = '';
         if(('querystring' in request) && (request.querystring.length>0)) {
             params = '?'+request.querystring;
         }
-        const newUri = endslashuri + params;
+        const newUri = endslashURI + params;
 
         const response = {
             status: '301',
@@ -31,9 +28,6 @@ module.exports.folderredirect = (event, context, callback) => {
         };
         return callback(null, response);
     } else {
-        // Return to CloudFront
-        const request = event.Records[0].cf.request;
-
         // Extract the URI from the request
         const oldUri = request.uri;
 

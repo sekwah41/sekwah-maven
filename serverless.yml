@@ -13,13 +13,17 @@ custom:
       - staging
       - production
       - dev
+  prune:
+    automatic: true
+    number: 3
 
 plugins:
   - serverless-lambda-edge-pre-existing-cloudfront
+  - serverless-prune-plugin
 
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs14.x
   lambdaHashingVersion: 20201221
   # Need to look at new format, works for now in 2.x.x
   role: LambdaEdgeMavenRole
@@ -40,15 +44,18 @@ functions:
   mavenFolderList:
     handler: src/folderList.list
     events:
-      - http: GET /hello
+      - http: GET /files
     package:
       patterns:
         - "src/folderList.js"
   mavenFolderRedirect:
     handler: src/folderRedirect.folderredirect
+    # Doesnt need to be but this is a light function anyway
+    memorySize: 128
     package:
       patterns:
         - "src/folderRedirect.js"
+        #- "src/folderList.js"
         #- node_modules/**
     events:
       # Using npm install --save-dev serverless-lambda-edge-pre-existing-cloudfront
@@ -90,3 +97,16 @@ resources:
               Action: sts:AssumeRole
         ManagedPolicyArns:
           - arn:aws:iam::aws:policy/service-role/AWSLambdaRole
+        # Doesnt seem to currently properly apply but yea :P
+        Policies:
+          - PolicyName: mavenListAccess
+            PolicyDocument:
+              Version: '2012-10-17'
+              Statement:
+                - Effect: "Allow"
+                  Action:
+                    - "s3:GetObject"
+                  Resource:
+                    Fn::Join:
+                      - ""
+                      - - "arn:aws:s3:::sekwah-maven"
