@@ -19,6 +19,7 @@
   "scripts": {
     "predeploy": "cd maven-explorer && npm run build",
     "start": "cd packages/maven-explorer && yarn start",
+    "test": "cd packages/maven-explorer && yarn test",
     "deploy": "serverless deploy",
     "remove": "serverless remove",
     "prune": "sls prune -n 1"

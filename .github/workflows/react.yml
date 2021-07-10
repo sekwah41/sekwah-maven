@@ -1,0 +1,23 @@
+name: Test
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14.x
+      - name: Prepare Repo
+        run: |
+          git submodule init
+          git submodule update
+          yarn install --frozen-lockfile
+      - name: Run Tests
+        run: yarn test
+
