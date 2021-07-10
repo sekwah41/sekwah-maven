@@ -26,7 +26,8 @@ provider:
   runtime: nodejs14.x
   lambdaHashingVersion: 20201221
   # Need to look at new format, works for now in 2.x.x
-  role: LambdaEdgeMavenRole
+  iam:
+    role: LambdaEdgeMavenRole
 
   # you can overwrite defaults here
   #  stage: dev
@@ -41,13 +42,13 @@ package:
     - "!**/*"
 
 functions:
-  mavenFolderList:
-    handler: src/folderList.list
-    events:
-      - http: GET /files
-    package:
-      patterns:
-        - "src/folderList.js"
+#  mavenFolderList:
+#    handler: src/folderList.list
+#    events:
+#      - http: GET /files
+#    package:
+#      patterns:
+#        - "src/folderList.js"
   mavenFolderRedirect:
     handler: src/folderRedirect.folderredirect
     # Doesnt need to be but this is a light function anyway
