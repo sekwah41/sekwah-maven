@@ -1,0 +1,3 @@
+[submodule "maven-explorer"]
+	path = maven-explorer
+	url = https://github.com/sekwah41/maven-explorer
