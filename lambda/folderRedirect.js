@@ -31,7 +31,7 @@ module.exports.folderredirect = (event, context, callback) => {
         // Extract the URI from the request
         const oldUri = request.uri;
 
-        const newuri = oldUri.replace(/\/$/, '\/index.html');
+        const newuri = oldUri.replace(/\/$/, '\/maven-explorer\/index.html');
 
         request.uri = newuri;
 

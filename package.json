@@ -17,9 +17,9 @@
     "lerna": "4.0.0"
   },
   "scripts": {
-    "predeploy": "cd maven-explorer && npm run build",
+    "predeploy": "lerna run build --stream",
     "start": "cd packages/maven-explorer && yarn start",
-    "test": "cd packages/maven-explorer && yarn test",
+    "test": "lerna run test --stream",
     "deploy": "serverless deploy",
     "remove": "serverless remove",
     "prune": "sls prune -n 1"
