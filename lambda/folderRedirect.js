@@ -1,6 +1,5 @@
 'use strict';
 
-
 module.exports.folderredirect = (event, context, callback) => {
     const request = event.Records[0].cf.request;
 
@@ -11,8 +10,8 @@ module.exports.folderredirect = (event, context, callback) => {
     if(endslashURI !== oldURI) {
 
         let params = '';
-        if(('querystring' in request) && (request.querystring.length>0)) {
-            params = '?'+request.querystring;
+        if (('querystring' in request) && (request.querystring.length > 0)) {
+            params = '?' + request.querystring;
         }
         const newUri = endslashURI + params;
 
@@ -27,14 +26,5 @@ module.exports.folderredirect = (event, context, callback) => {
             }
         };
         return callback(null, response);
-    } else {
-        // Extract the URI from the request
-        const oldUri = request.uri;
-
-        const newuri = oldUri.replace(/\/$/, '\/maven-explorer\/index.html');
-
-        request.uri = newuri;
-
-        return callback(null, request);
     }
 };
