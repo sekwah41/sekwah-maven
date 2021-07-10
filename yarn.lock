@@ -653,7 +653,7 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-sdk@^2.941.0, aws-sdk@^2.942.0:
+aws-sdk@2.943.0, aws-sdk@^2.942.0:
   version "2.943.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.943.0.tgz#6bda506cc33f5e7ec14e58ca4847e9abbab05c13"
   integrity sha512-1/WDupJrIB0SJEzIOf+UpqmG0AP5AXoDXhbW7CEujHerOd+/b5A1ubeHKGQJvBN4tAktgsvGpDiBRfB9MpJU5g==
@@ -3440,19 +3440,19 @@ semver@^7.3.4, semver@^7.3.5:
   dependencies:
     lru-cache "^6.0.0"
 
-serverless-lambda-edge-pre-existing-cloudfront@^1.1.5:
+serverless-lambda-edge-pre-existing-cloudfront@1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/serverless-lambda-edge-pre-existing-cloudfront/-/serverless-lambda-edge-pre-existing-cloudfront-1.1.5.tgz#2b6675e104238c05f338756f8841f6f24c8d8ff9"
   integrity sha512-4HNi6enU2VUXKaynd23jsKgCWwH9it16i+zcJGK0r6kR1o6AjfePkF5hNlJtIx8Z7KBfQ4wmiJ5Aq4urExE+mw==
 
-serverless-prune-plugin@^1.5.1:
+serverless-prune-plugin@1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/serverless-prune-plugin/-/serverless-prune-plugin-1.5.1.tgz#a628551151228eeee8da2f454d0b062d9c1dda40"
   integrity sha512-lCxHNQXmGL0GEe7gBGOx1MdafYXAi9RkiuKPE4DDSSdrdbVnn0KLcbriKWGC2MdOpn/vs358MaeBuVSefuzMzA==
   dependencies:
     bluebird "^3.4.7"
 
-serverless@^2.28.7:
+serverless@2.51.2:
   version "2.51.2"
   resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.51.2.tgz#715e993e163a3a798bf936b39963257c6355d1cd"
   integrity sha512-I2g7zrS9cGNfwMJFQiypUX0DlrxgbhRrmIWyhq784FFljgssEN/6dq5sYBp0nBaK5yPBlqSWILXzQ3jaeG7vIw==
