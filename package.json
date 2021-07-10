@@ -4,14 +4,21 @@
   "private": true,
   "description": "Just setting up for some server things... Deploy single function",
   "main": "folderRedirect.js",
-  "dependencies": {},
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "devDependencies": {
     "aws-sdk": "2.943.0",
     "serverless": "2.51.2",
     "serverless-lambda-edge-pre-existing-cloudfront": "1.1.5",
-    "serverless-prune-plugin": "1.5.1"
+    "serverless-prune-plugin": "1.5.1",
+    "lerna": "4.0.0"
   },
   "scripts": {
+    "predeploy": "cd maven-explorer && npm run build",
+    "start": "cd packages/maven-explorer && yarn start",
     "deploy": "serverless deploy",
     "remove": "serverless remove",
     "prune": "sls prune -n 1"
