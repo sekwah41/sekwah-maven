@@ -1,0 +1,58 @@
+{
+  "name": "sekwah-maven-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/maven-explorer/",
+  "dependencies": {
+    "@ant-design/icons": "4.6.2",
+    "@testing-library/jest-dom": "5.14.1",
+    "@testing-library/react": "12.0.0",
+    "@testing-library/user-event": "13.1.9",
+    "@types/jest": "26.0.24",
+    "@types/node": "14.17.5",
+    "@types/react": "17.0.14",
+    "@types/react-dom": "17.0.9",
+    "antd": "4.16.6",
+    "eslint-config-react-app": "6.0.0",
+    "node-sass": "4.14.1",
+    "pretty-time": "1.1.0",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "react-scroll-sync": "0.9.0",
+    "react-split-pane": "2.0.3",
+    "typescript": "4.3.5",
+    "web-vitals": "2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/pretty-time": "1.1.0",
+    "@types/react-scroll-sync": "0.8.2",
+    "identity-obj-proxy": "3.0.0",
+    "msw": "0.31.0"
+  }
+}
