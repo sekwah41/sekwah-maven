@@ -27,4 +27,6 @@ module.exports.folderredirect = (event, context, callback) => {
         };
         return callback(null, response);
     }
+
+    return callback(null, request);
 };
