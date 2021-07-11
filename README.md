@@ -1,8 +1,4 @@
 Sekwah Maven
 =============
 
-run `npm run deploy -- --stage production` to deploy to production
-
-
-## Deploy
-Contains scripts to help with stages before/after deploying.
+Not really designed for wider use. It's more for myself to have some fun and test some new skills.
