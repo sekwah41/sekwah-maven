@@ -7,7 +7,17 @@ service: sekwah-maven
 # Check out our docs for more details
 frameworkVersion: '2'
 
+# https://www.serverless.com/plugins/
+plugins:
+  - serverless-lambda-edge-pre-existing-cloudfront
+  - serverless-prune-plugin
+  - serverless-s3-sync
+
 custom:
+  s3Sync:
+    - bucketName: sekwah-maven
+      bucketPrefix: maven-explorer
+      localDir: ../maven-explorer/build
   lambdaEdgePreExistingCloudFront:
     validStages:
       - staging
@@ -16,10 +26,6 @@ custom:
   prune:
     automatic: true
     number: 3
-
-plugins:
-  - serverless-lambda-edge-pre-existing-cloudfront
-  - serverless-prune-plugin
 
 provider:
   name: aws

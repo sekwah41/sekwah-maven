@@ -9,20 +9,12 @@
       "packages/*"
     ]
   },
-  "devDependencies": {
-    "aws-sdk": "2.943.0",
-    "serverless": "2.51.2",
-    "serverless-lambda-edge-pre-existing-cloudfront": "1.1.5",
-    "serverless-prune-plugin": "1.5.1",
-    "lerna": "4.0.0"
-  },
   "scripts": {
     "predeploy": "lerna run build --stream",
     "start": "cd packages/maven-explorer && yarn start",
     "test": "cd packages/maven-explorer && yarn test",
-    "deploy": "serverless deploy",
-    "remove": "serverless remove",
-    "prune": "sls prune -n 1"
+    "deploy": "lerna run deploy --stream",
+    "prune": "lerna run prune --stream"
   },
   "author": "",
   "license": "ISC"
