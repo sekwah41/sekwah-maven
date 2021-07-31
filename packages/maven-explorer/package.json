@@ -55,6 +55,6 @@
     "@types/react-router-dom": "5.1.8",
     "@types/react-scroll-sync": "0.8.2",
     "identity-obj-proxy": "3.0.0",
-    "msw": "0.33.1"
+    "msw": "0.33.2"
   }
 }
