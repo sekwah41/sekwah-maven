@@ -4,7 +4,7 @@
   "private": true,
   "description": "Just setting up for some server things... Deploy single function",
   "devDependencies": {
-    "aws-sdk": "2.983.0",
+    "aws-sdk": "2.987.0",
     "lerna": "4.0.0",
     "serverless": "2.57.0",
     "serverless-lambda-edge-pre-existing-cloudfront": "1.1.5",
