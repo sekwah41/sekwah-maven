@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "/maven-explorer/",
   "dependencies": {
-    "@ant-design/icons": "4.6.4",
+    "@ant-design/icons": "4.7.0",
     "@testing-library/jest-dom": "5.14.1",
     "@testing-library/react": "12.1.0",
     "@testing-library/user-event": "13.2.1",
@@ -48,11 +48,11 @@
   },
   "devDependencies": {
     "@types/jest": "26.0.24",
-    "@types/node": "14.17.17",
-    "@types/react": "17.0.21",
+    "@types/node": "14.17.18",
+    "@types/react": "17.0.24",
     "@types/react-dom": "17.0.9",
     "@types/pretty-time": "1.1.1",
-    "@types/react-router-dom": "5.1.9",
+    "@types/react-router-dom": "5.3.0",
     "@types/react-scroll-sync": "0.8.2",
     "identity-obj-proxy": "3.0.0",
     "msw": "0.35.0"
