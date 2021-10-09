@@ -2625,14 +2625,14 @@
     ramda "^0.26.1"
     semver "^6.1.1"
 
-"@serverless/dashboard-plugin@^5.4.5":
-  version "5.4.5"
-  resolved "https://registry.yarnpkg.com/@serverless/dashboard-plugin/-/dashboard-plugin-5.4.5.tgz#9377d03003c330e51db2b5fa53dfea514646889d"
-  integrity sha512-/GC25lNFBcUQ/jK4ArDkx7yJk8a+QVXPHa7jakb8zXYDUy1s9XbXW5R8Lj0X1s1e8NG52+rCh6y1gy53hGqvbQ==
+"@serverless/dashboard-plugin@^5.4.6":
+  version "5.4.6"
+  resolved "https://registry.yarnpkg.com/@serverless/dashboard-plugin/-/dashboard-plugin-5.4.6.tgz#8f05b169900bc6c840f88705eb9aebcbd2d07a93"
+  integrity sha512-FL4aSHQ27s2OPUwS8c1/l1m0Q3AIzOfEx09AygcaH7WFeLBgtcIWGeTBJw77AtVBdbAhKe3CViFjrSZb5Rnrfg==
   dependencies:
     "@serverless/event-mocks" "^1.1.1"
     "@serverless/platform-client" "^4.3.0"
-    "@serverless/utils" "^5.17.0"
+    "@serverless/utils" "^5.17.2"
     chalk "^4.1.2"
     child-process-ext "^2.1.1"
     chokidar "^3.5.2"
@@ -2780,10 +2780,10 @@
     uuid "^8.3.2"
     write-file-atomic "^3.0.3"
 
-"@serverless/utils@^5.17.0":
-  version "5.17.0"
-  resolved "https://registry.yarnpkg.com/@serverless/utils/-/utils-5.17.0.tgz#b53261aa6c6d4ecee6e99b49c68a1988851a2386"
-  integrity sha512-Xnkg1xPjXFCiXXvsIi+inl9lgWSyEyG6tUpGzaKbpPcPo16xruBUX+aRKtMd53QXe3WJVe7+1+MOzjiXbRzE1A==
+"@serverless/utils@^5.17.2":
+  version "5.17.3"
+  resolved "https://registry.yarnpkg.com/@serverless/utils/-/utils-5.17.3.tgz#039f74e16762311eee02661e8ee9f3424dcfd2a9"
+  integrity sha512-DbvYKDfuwNeTmlcn1+5hTOPIO9OLyO8v4VwC6M1GisM5U7lkqlFFLZGdWrhrlP6lhDsKFIaCZ6hHSk4t+tB12g==
   dependencies:
     archive-type "^4.0.0"
     chalk "^4.1.2"
@@ -2803,7 +2803,7 @@
     js-yaml "^4.1.0"
     jwt-decode "^3.1.2"
     lodash "^4.17.21"
-    log "^6.2.0"
+    log "^6.3.1"
     log-node "^8.0.1"
     make-dir "^3.1.0"
     memoizee "^0.4.15"
@@ -2811,6 +2811,7 @@
     p-event "^4.2.0"
     supports-color "^8.1.1"
     type "^2.5.0"
+    uni-global "^1.0.0"
     uuid "^8.3.2"
     write-file-atomic "^3.0.3"
 
@@ -3210,10 +3211,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.3.1.tgz#24691fa2b0c3ec8c0d34bfcfd495edac5593ebb4"
   integrity sha512-N87VuQi7HEeRJkhzovao/JviiqKjDKMVKxKMfUvSKw+MbkbW8R0nA3fi/MQhhlxV2fQ+2ReM+/Nt4efdrJx3zA==
 
-"@types/node@14.17.20":
-  version "14.17.20"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.17.20.tgz#74cc80438fd0467dc4377ee5bbad89a886df3c10"
-  integrity sha512-gI5Sl30tmhXsqkNvopFydP7ASc4c2cLfGNQrVKN3X90ADFWFsPEsotm/8JHSUJQKTHbwowAHtcJPeyVhtKv0TQ==
+"@types/node@14.17.21":
+  version "14.17.21"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.17.21.tgz#6359d8cf73481e312a43886fa50afc70ce5592c6"
+  integrity sha512-zv8ukKci1mrILYiQOwGSV4FpkZhyxQtuFWGya2GujWg+zVAeRQ4qbaMmWp9vb9889CFA8JECH7lkwCL6Ygg8kA==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -3252,10 +3253,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-router-dom@5.3.0":
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-5.3.0.tgz#8c4e0aa0ccaf638ba965829ad29a10ac3cbe2212"
-  integrity sha512-svUzpEpKDwK8nmfV2vpZNSsiijFNKY8+gUqGqvGGOVrXvX58k1JIJubZa5igkwacbq/0umphO5SsQn/BQsnKpw==
+"@types/react-router-dom@5.3.1":
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-5.3.1.tgz#76700ccce6529413ec723024b71f01fc77a4a980"
+  integrity sha512-UvyRy73318QI83haXlaMwmklHHzV9hjl3u71MmM6wYNu0hOVk9NLTa0vGukf8zXUqnwz4O06ig876YSPpeK28A==
   dependencies:
     "@types/history" "*"
     "@types/react" "*"
@@ -3269,10 +3270,10 @@
     "@types/history" "*"
     "@types/react" "*"
 
-"@types/react-scroll-sync@0.8.2":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@types/react-scroll-sync/-/react-scroll-sync-0.8.2.tgz#e48e2715ef980e426026741f87066859024f9859"
-  integrity sha512-u/LM/8NDxEYaR1OogAjjVTUjUJg0MiierTEeFEIs7BwJBvl4IhTCZOyDCs/On/bzSeH/AOgszyeAa8kIJgIt9Q==
+"@types/react-scroll-sync@0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@types/react-scroll-sync/-/react-scroll-sync-0.8.3.tgz#d293537ea4d21e00d62af0454bfa3ceba73749b1"
+  integrity sha512-WHOMd34f7DM5DeTriQ3qIaHAOOf7WmQrZP92UIM9e/2Lzj80G262aibSqx3xqBGcV6VgnlTVr0fabpKrj+HYcA==
   dependencies:
     "@types/react" "*"
 
@@ -4290,10 +4291,10 @@ autoprefixer@^9.6.1:
     postcss "^7.0.32"
     postcss-value-parser "^4.1.0"
 
-aws-sdk@2.999.0, aws-sdk@^2.998.0:
-  version "2.999.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.999.0.tgz#2d71882fd9ba31c12a4281ae45ffe2b857f4307e"
-  integrity sha512-OcnD7m+HCZv2qDzmS7TgABGf26mVPfIyah0Dgz7hHAxBtx78qFWi/s9U6BDxVBKWLg7OKWVHf0opiMG4ujteqg==
+aws-sdk@2.1004.0, aws-sdk@^2.1003.0:
+  version "2.1004.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1004.0.tgz#5f6bb8859643cbbc50e96f5f27677e6af7b7d7da"
+  integrity sha512-dXcE6HnhV8DH/Jde0lklnZIf3XECFBUX77nPE3ibVU+T8cXdd6gISVR2CEbXANxyx8JVF5l1jdv1nBsUPQtkCA==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -10868,10 +10869,10 @@ log@^6.0.0:
     sprintf-kit "^2.0.0"
     type "^1.0.1"
 
-log@^6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/log/-/log-6.2.0.tgz#7a7766c00a93e7a2c28ac8d44afd0bf6383b4ead"
-  integrity sha512-W1sDY5FqR6wlpygW8ZFSxCfBhKx/RzCHK5S+Br8zA14bAnwSgCm5hToIWzi0Yhy6x9Ppw7pyIV06r8F5cSRHUw==
+log@^6.3.1:
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/log/-/log-6.3.1.tgz#fcf9bd71fe2274a51ad608dc95c549dd7512146b"
+  integrity sha512-McG47rJEWOkXTDioZzQNydAVvZNeEkSyLJ1VWkFwfW+o1knW+QSi8D1KjPn/TnctV+q99lkvJNe1f0E1IjfY2A==
   dependencies:
     d "^1.0.1"
     duration "^0.2.2"
@@ -10879,6 +10880,7 @@ log@^6.2.0:
     event-emitter "^0.3.5"
     sprintf-kit "^2.0.1"
     type "^2.5.0"
+    uni-global "^1.0.0"
 
 logform@^2.1.1:
   version "2.2.0"
@@ -15288,10 +15290,10 @@ serverless-lambda-edge-pre-existing-cloudfront@1.2.0:
   resolved "https://registry.yarnpkg.com/serverless-lambda-edge-pre-existing-cloudfront/-/serverless-lambda-edge-pre-existing-cloudfront-1.2.0.tgz#6328c8cb34d1efb1b3f69e1647e6a6b8addf051f"
   integrity sha512-RrYKaFkrFjq9dtPenrT8g+nbe/oQlmom7q4zu9tQ3PyqONv0OPO/3WtWHNNQwNCduHvUdXPvezyWVd0ecMuF5A==
 
-serverless-prune-plugin@1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/serverless-prune-plugin/-/serverless-prune-plugin-1.6.0.tgz#220bc470185c3308ebbd67f244df365155e4cf79"
-  integrity sha512-KOGQrDmLyp5+XdqMGQoZwQAqSNUiV6DoKuJaASRyemUhLByOWlmQ9xAoZNDjKjgnezzYLJpN4Tz54WyU+jDTZw==
+serverless-prune-plugin@1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/serverless-prune-plugin/-/serverless-prune-plugin-1.6.1.tgz#633a34bd9b1878b05c53821319db745a058f440e"
+  integrity sha512-rTeaedrVRWFdfXgSsraxcCHpVzL3AqztcYSr7FY3Jc74PJ0/H6Ukf5nFKKYZSolnF3JkU8ddwQGY52YnJIxQqw==
   dependencies:
     bluebird "^3.4.7"
 
@@ -15306,20 +15308,20 @@ serverless-s3-sync@1.17.1:
     mime "^2.4.4"
     minimatch "^3.0.4"
 
-serverless@2.60.3:
-  version "2.60.3"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.60.3.tgz#271d2d8d080da23a639e3b16ff72eeedcaaf8034"
-  integrity sha512-YlMVUc0O9ZbOXDSE1zAqudw3ryB3JvSiHpxpiliYin09MrmYa2scLNx+zBPU42zihz+UMdA3Kt1NGaa5yQucJg==
+serverless@2.62.0:
+  version "2.62.0"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.62.0.tgz#652f45a031dda48f6aa693ff5cc83c343d831cf4"
+  integrity sha512-orH8vTC+yFNG39HMzA8pQfA3dARdabDJaGspDJHHnYTJU8U1uruZXZQ0ta0dA+UW16klvw01yp6u2ZekCo2JCg==
   dependencies:
     "@serverless/cli" "^1.5.2"
     "@serverless/components" "^3.17.1"
-    "@serverless/dashboard-plugin" "^5.4.5"
+    "@serverless/dashboard-plugin" "^5.4.6"
     "@serverless/platform-client" "^4.3.0"
-    "@serverless/utils" "^5.17.0"
+    "@serverless/utils" "^5.17.2"
     ajv "^6.12.6"
     ajv-keywords "^3.5.2"
     archiver "^5.3.0"
-    aws-sdk "^2.998.0"
+    aws-sdk "^2.1003.0"
     bluebird "^3.7.2"
     boxen "^5.1.2"
     cachedir "^2.3.0"
@@ -16946,6 +16948,13 @@ unbzip2-stream@^1.0.9:
     buffer "^5.2.1"
     through "^2.3.8"
 
+uni-global@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/uni-global/-/uni-global-1.0.0.tgz#3583c449e87a2d9dc270ea221410a649bcdad040"
+  integrity sha512-WWM3HP+siTxzIWPNUg7hZ4XO8clKi6NoCAJJWnuRL+BAqyFXF8gC03WNyTefGoUXYc47uYgXxpKLIEvo65PEHw==
+  dependencies:
+    type "^2.5.0"
+
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-1.0.4.tgz#2619800c4c825800efdd8343af7dd9933cbe2818"
@@ -17314,10 +17323,10 @@ wcwidth@^1.0.0, wcwidth@^1.0.1:
   dependencies:
     defaults "^1.0.3"
 
-web-vitals@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-2.1.0.tgz#ebf5428875ab5bfc1056c2e80cd177001287de7b"
-  integrity sha512-npEyJP8jHf3J71t1tRTEtz9FeKp8H2udWJUUq5ykfPhhstr//TUxiYhIEzLNwk4zv2ybAilMn7v7N6Mxmuitmg==
+web-vitals@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-2.1.1.tgz#9ae64fa9054b8865a3fa093cd8db302676822c2a"
+  integrity sha512-6i/cE+7l095Etvjo2kbtVC8OXzLc9D8XMIWBPWAt2CME/7qmIMZWQwVoKDD277poVHNdPcLgW5Jruhbi8+8Vcw==
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
