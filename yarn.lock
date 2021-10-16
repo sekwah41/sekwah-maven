@@ -2625,14 +2625,14 @@
     ramda "^0.26.1"
     semver "^6.1.1"
 
-"@serverless/dashboard-plugin@^5.4.6":
-  version "5.4.6"
-  resolved "https://registry.yarnpkg.com/@serverless/dashboard-plugin/-/dashboard-plugin-5.4.6.tgz#8f05b169900bc6c840f88705eb9aebcbd2d07a93"
-  integrity sha512-FL4aSHQ27s2OPUwS8c1/l1m0Q3AIzOfEx09AygcaH7WFeLBgtcIWGeTBJw77AtVBdbAhKe3CViFjrSZb5Rnrfg==
+"@serverless/dashboard-plugin@^5.4.8":
+  version "5.4.8"
+  resolved "https://registry.yarnpkg.com/@serverless/dashboard-plugin/-/dashboard-plugin-5.4.8.tgz#07e9f6c1428a195ed852e8733184d16cef97ce39"
+  integrity sha512-vAXlfM33fRsYDeHTjFLlgA6VCxeXEkB8rx/mqQv5kv48KO4gwRsmgV4/xzEnk2fSQVPlyHL66DG0IvgFyEeC3Q==
   dependencies:
     "@serverless/event-mocks" "^1.1.1"
     "@serverless/platform-client" "^4.3.0"
-    "@serverless/utils" "^5.17.2"
+    "@serverless/utils" "^5.18.0"
     chalk "^4.1.2"
     child-process-ext "^2.1.1"
     chokidar "^3.5.2"
@@ -2780,10 +2780,10 @@
     uuid "^8.3.2"
     write-file-atomic "^3.0.3"
 
-"@serverless/utils@^5.17.2":
-  version "5.17.3"
-  resolved "https://registry.yarnpkg.com/@serverless/utils/-/utils-5.17.3.tgz#039f74e16762311eee02661e8ee9f3424dcfd2a9"
-  integrity sha512-DbvYKDfuwNeTmlcn1+5hTOPIO9OLyO8v4VwC6M1GisM5U7lkqlFFLZGdWrhrlP6lhDsKFIaCZ6hHSk4t+tB12g==
+"@serverless/utils@^5.18.0":
+  version "5.18.0"
+  resolved "https://registry.yarnpkg.com/@serverless/utils/-/utils-5.18.0.tgz#6f44eb09a706a40c95a0ac45020238548ea0c97b"
+  integrity sha512-vq6tzG3RilZVugbJBvBOU5XBVRTzGce1XH6zvivMM8c+a6wmMUcRRfTD0SPTCWxD2hSdv4WrH3Yz27Ez55vrSA==
   dependencies:
     archive-type "^4.0.0"
     chalk "^4.1.2"
@@ -3011,10 +3011,10 @@
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^8.0.0"
 
-"@testing-library/user-event@13.3.0":
-  version "13.3.0"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-13.3.0.tgz#2ce50953b885c452a2b2df880a1998637599dcf5"
-  integrity sha512-f8AJ8ybUna88Lmx3l5fuPMhzyyrcopQk/vgVDHVKOnOf2kkjfVSb0Px77iduHmh6uFUcXsD/z6qp4G13rObVrw==
+"@testing-library/user-event@13.4.1":
+  version "13.4.1"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-13.4.1.tgz#8d9e73bcc7be09560b4c0ffbb6842ac43bc80ed2"
+  integrity sha512-WcnVwi96MmFsHLMNvBz03aPMVDU3UOgucXcn85fNXKKdtd7CHi2NAgE3hASt157yTB9krym0ikFVKbqYghKRCg==
   dependencies:
     "@babel/runtime" "^7.12.5"
 
@@ -3211,10 +3211,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.3.1.tgz#24691fa2b0c3ec8c0d34bfcfd495edac5593ebb4"
   integrity sha512-N87VuQi7HEeRJkhzovao/JviiqKjDKMVKxKMfUvSKw+MbkbW8R0nA3fi/MQhhlxV2fQ+2ReM+/Nt4efdrJx3zA==
 
-"@types/node@14.17.21":
-  version "14.17.21"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.17.21.tgz#6359d8cf73481e312a43886fa50afc70ce5592c6"
-  integrity sha512-zv8ukKci1mrILYiQOwGSV4FpkZhyxQtuFWGya2GujWg+zVAeRQ4qbaMmWp9vb9889CFA8JECH7lkwCL6Ygg8kA==
+"@types/node@14.17.27":
+  version "14.17.27"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.17.27.tgz#5054610d37bb5f6e21342d0e6d24c494231f3b85"
+  integrity sha512-94+Ahf9IcaDuJTle/2b+wzvjmutxXAEXU6O81JHblYXUg2BDG+dnBy7VxIPHKAyEEDHzCMQydTJuWvrE+Aanzw==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -3286,10 +3286,10 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/react@17.0.27":
-  version "17.0.27"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.27.tgz#6498ed9b3ad117e818deb5525fa1946c09f2e0e6"
-  integrity sha512-zgiJwtsggVGtr53MndV7jfiUESTqrbxOcBvwfe6KS/9bzaVPCTDieTWnFNecVNx6EAaapg5xsLLWFfHHR437AA==
+"@types/react@17.0.30":
+  version "17.0.30"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.30.tgz#2f8e6f5ab6415c091cc5e571942ee9064b17609e"
+  integrity sha512-3Dt/A8gd3TCXi2aRe84y7cK1K8G+N9CZRDG8kDGguOKa0kf/ZkSwTmVIDPsm/KbQOVMaDJXwhBtuOXxqwdpWVg==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -4291,10 +4291,10 @@ autoprefixer@^9.6.1:
     postcss "^7.0.32"
     postcss-value-parser "^4.1.0"
 
-aws-sdk@2.1004.0, aws-sdk@^2.1003.0:
-  version "2.1004.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1004.0.tgz#5f6bb8859643cbbc50e96f5f27677e6af7b7d7da"
-  integrity sha512-dXcE6HnhV8DH/Jde0lklnZIf3XECFBUX77nPE3ibVU+T8cXdd6gISVR2CEbXANxyx8JVF5l1jdv1nBsUPQtkCA==
+aws-sdk@2.1009.0, aws-sdk@^2.1008.0:
+  version "2.1009.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1009.0.tgz#d96217a19f259c2448f91cf24973d390de16f8e0"
+  integrity sha512-qKbmt+vzQ7ZSnfEvA+u6d7CkV09AcAGnxZAiNgOAEn8GFFEtERy6C39VoAuWfON/B2avJDYvtRocjVmAxWpgjQ==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -15308,20 +15308,20 @@ serverless-s3-sync@1.17.1:
     mime "^2.4.4"
     minimatch "^3.0.4"
 
-serverless@2.62.0:
-  version "2.62.0"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.62.0.tgz#652f45a031dda48f6aa693ff5cc83c343d831cf4"
-  integrity sha512-orH8vTC+yFNG39HMzA8pQfA3dARdabDJaGspDJHHnYTJU8U1uruZXZQ0ta0dA+UW16klvw01yp6u2ZekCo2JCg==
+serverless@2.63.0:
+  version "2.63.0"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.63.0.tgz#b1cf91253572640e8409ae6f816d0a330f08816a"
+  integrity sha512-8R3WceUjjFBZRcL0YXT6+3hEWIxlzyCIWiIVy9x2Rf2TDBBJTTv82T1JHvLr9dRVBSOcQBu6cHlzSqwk1ozbLA==
   dependencies:
     "@serverless/cli" "^1.5.2"
     "@serverless/components" "^3.17.1"
-    "@serverless/dashboard-plugin" "^5.4.6"
+    "@serverless/dashboard-plugin" "^5.4.8"
     "@serverless/platform-client" "^4.3.0"
-    "@serverless/utils" "^5.17.2"
+    "@serverless/utils" "^5.18.0"
     ajv "^6.12.6"
     ajv-keywords "^3.5.2"
     archiver "^5.3.0"
-    aws-sdk "^2.1003.0"
+    aws-sdk "^2.1008.0"
     bluebird "^3.7.2"
     boxen "^5.1.2"
     cachedir "^2.3.0"
@@ -16905,10 +16905,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@4.4.3:
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.3.tgz#bdc5407caa2b109efd4f82fe130656f977a29324"
-  integrity sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==
+typescript@4.4.4:
+  version "4.4.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.4.tgz#2cd01a1a1f160704d3101fd5a58ff0f9fcb8030c"
+  integrity sha512-DqGhF5IKoBl8WNf8C1gu8q0xZSInh9j1kJJMqT3a94w1JzVaBU4EXOSMrz9yDqMT0xt3selp83fuFMQ0uzv6qA==
 
 ua-parser-js@^0.7.18:
   version "0.7.28"
@@ -17323,10 +17323,10 @@ wcwidth@^1.0.0, wcwidth@^1.0.1:
   dependencies:
     defaults "^1.0.3"
 
-web-vitals@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-2.1.1.tgz#9ae64fa9054b8865a3fa093cd8db302676822c2a"
-  integrity sha512-6i/cE+7l095Etvjo2kbtVC8OXzLc9D8XMIWBPWAt2CME/7qmIMZWQwVoKDD277poVHNdPcLgW5Jruhbi8+8Vcw==
+web-vitals@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-2.1.2.tgz#3a6c8faebf9097a6ccd17f5f45c9485d8d62dab1"
+  integrity sha512-nZnEH8dj+vJFqCRYdvYv0a59iLXsb8jJkt+xvXfwgnkyPdsSLtKNlYmtTDiHmTNGXeSXtpjTTUcNvFtrAk6VMQ==
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
