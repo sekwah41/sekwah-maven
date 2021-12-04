@@ -5,7 +5,7 @@
   "homepage": "/maven-explorer/",
   "dependencies": {
     "@ant-design/icons": "4.7.0",
-    "@testing-library/jest-dom": "5.15.1",
+    "@testing-library/jest-dom": "5.16.0",
     "@testing-library/react": "12.1.2",
     "@testing-library/user-event": "13.5.0",
     "antd": "4.17.2",
@@ -48,13 +48,13 @@
   },
   "devDependencies": {
     "@types/jest": "27.0.3",
-    "@types/node": "16.11.10",
+    "@types/node": "16.11.11",
     "@types/react": "17.0.37",
     "@types/react-dom": "17.0.11",
     "@types/pretty-time": "1.1.1",
     "@types/react-router-dom": "5.3.2",
     "@types/react-scroll-sync": "0.8.3",
     "identity-obj-proxy": "3.0.0",
-    "msw": "0.35.0"
+    "msw": "0.36.0"
   }
 }
