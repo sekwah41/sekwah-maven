@@ -3249,10 +3249,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.3.1.tgz#24691fa2b0c3ec8c0d34bfcfd495edac5593ebb4"
   integrity sha512-N87VuQi7HEeRJkhzovao/JviiqKjDKMVKxKMfUvSKw+MbkbW8R0nA3fi/MQhhlxV2fQ+2ReM+/Nt4efdrJx3zA==
 
-"@types/node@16.11.12":
-  version "16.11.12"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.12.tgz#ac7fb693ac587ee182c3780c26eb65546a1a3c10"
-  integrity sha512-+2Iggwg7PxoO5Kyhvsq9VarmPbIelXP070HMImEpbtGCoyWNINQj4wzjbQCXzdHTRXnqufutJb5KAURZANNBAw==
+"@types/node@16.11.14":
+  version "16.11.14"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.14.tgz#4939fb42e5b0ffb3ea7e193c28244fe7414977a6"
+  integrity sha512-mK6BKLpL0bG6v2CxHbm0ed6RcZrAtTHBTd/ZpnlVPVa3HkumsqLE4BC4u6TQ8D7pnrRbOU0am6epuALs+Ncnzw==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -4336,25 +4336,10 @@ autoprefixer@^9.6.1:
     postcss "^7.0.32"
     postcss-value-parser "^4.1.0"
 
-aws-sdk@2.1046.0:
+aws-sdk@2.1046.0, aws-sdk@^2.1046.0:
   version "2.1046.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1046.0.tgz#9147b0fa1c86acbebd1a061e951ab5012f4499d7"
   integrity sha512-ocwHclMXdIA+NWocUyvp9Ild3/zy2vr5mHp3mTyodf0WU5lzBE8PocCVLSWhMAXLxyia83xv2y5f5AzAcetbqA==
-  dependencies:
-    buffer "4.9.2"
-    events "1.1.1"
-    ieee754 "1.1.13"
-    jmespath "0.15.0"
-    querystring "0.2.0"
-    sax "1.2.1"
-    url "0.10.3"
-    uuid "3.3.2"
-    xml2js "0.4.19"
-
-aws-sdk@^2.1041.0:
-  version "2.1043.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1043.0.tgz#170a5b14b3ea25df760f9a6b437bfe35c9a1578e"
-  integrity sha512-WysMTSLfi8ZCj6QAAitJkxObxOzGLhcu6FxoKHiEnrefvfQtSvwqUq7BbT/pIfijnF9dE/7e9XwjW8Dz/hqF4Q==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -5458,10 +5443,10 @@ cli-progress-footer@^2.1.1:
     timers-ext "^0.1.7"
     type "^2.5.0"
 
-cli-progress-footer@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/cli-progress-footer/-/cli-progress-footer-2.2.0.tgz#0b0862a2eec0f94c8d9cf5107947ddae9de4416a"
-  integrity sha512-bMlSuLbztsIefm04dOOYcyXOhB6ZhJi8CAqzXtTmwbZlei+BLWDOgzYApl16DJdKucmiOb/pmqmilO3YfobGDQ==
+cli-progress-footer@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/cli-progress-footer/-/cli-progress-footer-2.3.0.tgz#ef8af382fa8e8c5c649dd3e7667d93b7494d3d3c"
+  integrity sha512-xJl+jqvdsE0Gjh5tKoLzZrQS4nPHC+yzeitgq2faAZiHl+/Peuwzoy5Sed6EBkm8JNrPk7W4U3YNVO/uxoqOFg==
   dependencies:
     cli-color "^2.0.1"
     d "^1.0.1"
@@ -15488,10 +15473,10 @@ serverless-s3-sync@1.17.3:
     mime "^2.4.4"
     minimatch "^3.0.4"
 
-serverless@2.68.0:
-  version "2.68.0"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.68.0.tgz#40158582c9b2806d0c590ac65a84f8d36741bca5"
-  integrity sha512-RFhbwobdTEy/GsisYgLijjamKMpQpPdqD7rKXIFB8Ahfllnk+yFbP0fp/UdOH9qGATik8SISO+0wn5zjrhahxg==
+serverless@2.69.1:
+  version "2.69.1"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.69.1.tgz#3e8ba436028ca2c871ff81d87bc624b689d5eb17"
+  integrity sha512-pHHr8l6BDDzHIcFqdXDNGIrEbtcm4Lf0dlE3nuHVvmADET+rdl5aOWem9JaHA75cyICybm8oj8FhhtJIt5Uotw==
   dependencies:
     "@serverless/cli" "^1.5.3"
     "@serverless/components" "^3.18.1"
@@ -15501,14 +15486,14 @@ serverless@2.68.0:
     ajv "^6.12.6"
     ajv-keywords "^3.5.2"
     archiver "^5.3.0"
-    aws-sdk "^2.1041.0"
+    aws-sdk "^2.1046.0"
     bluebird "^3.7.2"
     boxen "^5.1.2"
     cachedir "^2.3.0"
     chalk "^4.1.2"
     child-process-ext "^2.1.1"
     ci-info "^3.3.0"
-    cli-progress-footer "^2.2.0"
+    cli-progress-footer "^2.3.0"
     d "^1.0.1"
     dayjs "^1.10.7"
     decompress "^4.2.1"
@@ -17099,10 +17084,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@4.5.3:
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.3.tgz#afaa858e68c7103317d89eb90c5d8906268d353c"
-  integrity sha512-eVYaEHALSt+s9LbvgEv4Ef+Tdq7hBiIZgii12xXJnukryt3pMgJf6aKhoCZ3FWQsu6sydEnkg11fYXLzhLBjeQ==
+typescript@4.5.4:
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.4.tgz#a17d3a0263bf5c8723b9c52f43c5084edf13c2e8"
+  integrity sha512-VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==
 
 ua-parser-js@^0.7.18:
   version "0.7.28"
