@@ -9,7 +9,7 @@
     "serverless": "2.72.2",
     "serverless-lambda-edge-pre-existing-cloudfront": "1.2.0",
     "serverless-prune-plugin": "2.0.1",
-    "serverless-s3-sync": "1.17.3"
+    "serverless-s3-sync": "2.0.0"
   },
   "scripts": {
     "deploy": "sls deploy --stage production",
