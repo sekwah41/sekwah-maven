@@ -15049,14 +15049,13 @@ serverless-prune-plugin@2.0.1:
   dependencies:
     bluebird "^3.7.2"
 
-serverless-s3-sync@1.17.3:
-  version "1.17.3"
-  resolved "https://registry.yarnpkg.com/serverless-s3-sync/-/serverless-s3-sync-1.17.3.tgz#cf7913dde5f38c215c21dbf7466370974003cf7a"
-  integrity sha512-lnet9qqu8Uh3N8lyywxWt+0eljsfiX4xVDDMLkE2ggWBGEupM4B4xBonsI1GfWgPVpd4EJOTeyFOEWUAWpINeA==
+serverless-s3-sync@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/serverless-s3-sync/-/serverless-s3-sync-3.3.0.tgz#2face546b3025c2fc04eef8dac81fe6259d6db82"
+  integrity sha512-1tW6URG8iwZ70okAvr1c+M/R/kBK8qmt3G3BjM3Rfc6I+KzPP0kiKYV3akfif+lSVUxBsPpEdVJK/uEJJlbH+A==
   dependencies:
     "@auth0/s3" "^1.0.0"
     bluebird "^3.5.4"
-    chalk "^2.4.2"
     mime "^2.4.4"
     minimatch "^3.0.4"
 
