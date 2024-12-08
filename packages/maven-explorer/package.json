@@ -4,22 +4,22 @@
   "private": true,
   "homepage": "/maven-explorer/",
   "dependencies": {
-    "@ant-design/icons": "4.7.0",
-    "@testing-library/jest-dom": "5.16.4",
+    "@ant-design/icons": "4.8.3",
+    "@testing-library/jest-dom": "5.17.0",
     "@testing-library/react": "12.1.5",
     "@testing-library/user-event": "13.5.0",
-    "antd": "4.19.5",
+    "antd": "4.24.16",
     "eslint-config-react-app": "6.0.0",
-    "node-sass": "7.0.1",
+    "node-sass": "7.0.3",
     "pretty-time": "1.1.0",
     "prop-types": "15.8.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-router-dom": "5.3.1",
+    "react-router-dom": "5.3.4",
     "react-scripts": "5.0.1",
-    "react-scroll-sync": "0.9.0",
+    "react-scroll-sync": "0.11.2",
     "react-split-pane": "2.0.3",
-    "typescript": "4.6.3",
+    "typescript": "4.9.5",
     "web-vitals": "2.1.4"
   },
   "scripts": {
@@ -47,14 +47,14 @@
     ]
   },
   "devDependencies": {
-    "@types/jest": "27.4.1",
-    "@types/node": "16.11.27",
-    "@types/react": "17.0.44",
-    "@types/react-dom": "17.0.15",
-    "@types/pretty-time": "1.1.2",
+    "@types/jest": "27.5.2",
+    "@types/node": "16.18.121",
+    "@types/react": "17.0.83",
+    "@types/react-dom": "17.0.25",
+    "@types/pretty-time": "1.1.5",
     "@types/react-router-dom": "5.3.3",
-    "@types/react-scroll-sync": "0.8.3",
+    "@types/react-scroll-sync": "0.9.0",
     "identity-obj-proxy": "3.0.0",
-    "msw": "0.39.2"
+    "msw": "0.49.3"
   }
 }
